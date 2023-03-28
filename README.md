@@ -9,7 +9,7 @@ This project contains the features to drag and drop the items horizontally with 
  - [Axios](https://www.npmjs.com/package/axios)
  - [MSW](https://mswjs.io/docs/getting-started/install)
  - [IndexDB](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB)
- -  [React-Bootstrap](%5Bhttps://react-bootstrap.github.io/getting-started/introduction/%5D)
+ -  [React-Bootstrap](https://react-bootstrap.github.io/getting-started/introduction)
  - [React-Beautiful-dnd](https://www.npmjs.com/package/react-beautiful-dnd)
 
   ## React Hooks used:
@@ -17,7 +17,7 @@ This project contains the features to drag and drop the items horizontally with 
  - useState
  - useCallback
 
-##Customized functions:
+## Customized functions:
 
  - **initialDataLoad**: This function used to check for the existing data in the database on refresh of the page if data does not exist it loads default data from the JSON file otherwise it will return false.
  - **fetchData** : Its fetching data from the database.
@@ -28,7 +28,7 @@ This project contains the features to drag and drop the items horizontally with 
  We have integrated the **indexedDB** to store the data of this project. In the **src** folder we have **initDB** function under **server/index.js** directory. The **initDB** function used to create the database and the store where we will store the project data.  
 
 ## Mock Api Configurations:
-We have implemented the MSW mock api services to mock the api. In src folder we have mocks folder where we configured the MSW mock api's. In the handler.js folder we have two api's getData and putData which used to add and updated the items in the database.
+We have implemented the **MSW** mock api services to mock the api. In **src** folder we have mocks folder where we configured the MSW mock api's. In the **handler.js** folder we have two api's **getData** and **putData** which used to add and updated the items in the database.
 
 ## Available Scripts to configure the project
 
